@@ -24,6 +24,6 @@ express.get("/api/color", async (req, res) => {
 
 express.listen(process.env["PORT"], () => {
   console.log(
-    `Club Rush '24 API is now listening on port ${process.env["PORT"]}`
+    `2024 Club Rush API is now listening on port ${process.env["PORT"]}`
   );
 });

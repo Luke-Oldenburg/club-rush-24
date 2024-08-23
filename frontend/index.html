@@ -8,11 +8,11 @@
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        setInterval(1000, async () => {
-            const response = await fetch("https://clubrush24.lukeo.hackclub.app/api/color");
+        setInterval(async () => {
+            const response = await fetch("http://clubrush24.lukeo.hackclub.app/api/color");
             const json = await response.json()
             document.body.style.background = json.body.color;
-        });
+        }, 1000);
     </script>
   </head>
   <body>
