@@ -4,6 +4,7 @@ import Express from "express";
 const express = new Express();
 
 express.use(Express.static("frontend"));
+express.use(Express.json());
 
 let color = "#ffffff";
 
