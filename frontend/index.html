@@ -7,6 +7,12 @@
     <title>GSHS Hack Club</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        * {
+            font-family: "Roboto Mono", sans-serif;
+        }
+    </style>
     <script>
         setInterval(async () => {
             const response = await fetch("http://clubrush24.lukeo.hackclub.app/api/color");
@@ -16,8 +22,8 @@
     </script>
   </head>
   <body>
-    <main class="flex flex-col items-center justify-center h-screen">
-        <h1 class="text-7xl">&lt;REDACTED&gt;</h1>
+    <main class="flex flex-col items-center justify-center h-screen mix-blend-difference">
+        <h1 class="text-9xl font-black">123-456-7890</h1>
         <p class="text-3xl">Text a hex color to the number and watch the background change!</p>
         <p class="text-3xl">Tip: hex colors are in the format #ffffff</p>
     </main>
