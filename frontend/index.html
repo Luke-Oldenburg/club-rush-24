@@ -7,6 +7,13 @@
     <title>GSHS Hack Club</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        setInterval(1000, async () => {
+            const response = await fetch("https://clubrush24.lukeo.hackclub.app/api/color");
+            const json = await response.json()
+            document.body.style.background = json.body.color;
+        });
+    </script>
   </head>
   <body>
     <main>
