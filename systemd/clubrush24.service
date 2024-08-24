@@ -1,0 +1,12 @@
+[Unit]
+Description=Start clubrush24
+DefaultDependencies=no
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash /home/lukeo/club-rush-24.sh
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target

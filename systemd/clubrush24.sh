@@ -1,0 +1,1 @@
+node /home/lukeo/club-rush-24/index.js
