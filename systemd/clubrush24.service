@@ -5,7 +5,7 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/bash /home/lukeo/club-rush-24.sh
+ExecStart=/usr/bin/bash /home/lukeo/club-rush-24/systemd/clubrush24.sh
 TimeoutStartSec=0
 
 [Install]
