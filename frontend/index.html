@@ -17,7 +17,7 @@
         setInterval(async () => {
             const response = await fetch("http://clubrush24.lukeo.hackclub.app/api/color");
             const json = await response.json()
-            document.body.style.backgroundColor = json.color;
+            document.body.style.background = json.color;
             document.getElementById("text").style.backgroundColor = json.color;
         }, 1000);
     </script>
