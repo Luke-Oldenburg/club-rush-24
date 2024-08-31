@@ -15,7 +15,7 @@
     </style>
     <script>
         async function setBackground() {
-            const response = await fetch("http://clubrush24.lukeo.hackclub.app/api/color");
+            const response = await fetch("https://clubrush24.lukeo.hackclub.app/api/color");
             const json = await response.json()
             document.body.style.background = json.color;
         }
