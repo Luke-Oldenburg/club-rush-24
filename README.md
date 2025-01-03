@@ -1,5 +1,5 @@
 # club-rush-24
-GSHS Hack Club's 2024 club rush demo. This project took heavy inspiration from ![tmb/club-fair-attention-monopoly](https://github.com/tmb/club-fair-attention-monopoly). I wanted to implement it on my own with Apple Shortcuts as the messaging hook so that I wouldn't have to pay for Twilio credits. In order to run it, just setup the shortcut on your phone using the screenshots below and point it to the ip of where you have the express server running. The only dependencies for the backend are dotenv and express.
+GSHS Hack Club's 2024 club rush demo. This project took heavy inspiration from ![tmb/club-fair-attention-monopoly](https://github.com/tmb/club-fair-attention-monopoly). I wanted to implement it on my own with Apple Shortcuts as the messaging hook so that I wouldn't have to pay for Twilio credits. In order to run it, just setup the shortcut on your phone using the screenshots below and point it to the IP of where you have the express server running. The only dependencies for the backend are dotenv and express.
 ![Screenshot 2024-08-23 at 20-34-04 GSHS Hack Club](https://github.com/user-attachments/assets/cf59817a-6a57-4566-ac44-91513fff9025)
 
 https://github.com/user-attachments/assets/ab863cb0-89d3-4d87-8eec-88e5c3bb2658
